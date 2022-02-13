@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #222;
+    color: #fff;
+    zoom: 0%;
+}
+
+
+.container{
+    /* border: 1px solid #000; */
+    height: auto;
+}
+
+.top-nav{
+    /* border: 1px solid #000; */
+    height: 300px;
+    background-image: url('call-of-duty-mobile.jpg');
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    background-size: 1400px 350px;
+}
+
+.top-nav img{
+    width: 300px;
+    background-color: transparent;
+}
+
+.content{
+    height: 100vh;
+    /* border: 1px solid #000; */
+}
+
+.page-content{
+    /* border: 1px solid #000; */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+#game-navigations{
+    position: sticky;
+    top: 0;
+    /* border: 1px solid #000; */
+    justify-content: space-around;
+    height: auto;
+    white-space: nowrap;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    /* scrollbar-color: #fff #000; */
+}
+
+
+footer{
+    justify-content: space-around;
+    background-color: #333;
+    position: sticky;
+    display: flex;
+    height: 50px;
+    bottom: 0;
+    padding: 2px;
+    /* border: 1px solid #000; */
+}
+
+footer a{
+    background: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.info-card a{
+    text-decoration: none;
+    background: transparent;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #222;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #222;
+}
+
+/* ::-webkit-scrollbar-thumb */

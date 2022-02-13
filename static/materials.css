@@ -1,0 +1,78 @@
+#button-1{
+    text-decoration: none;
+    background-color: rgb(60, 0, 255);
+    width: 300px;
+    padding: 20px 0 20px 0;
+    border-radius: 10px;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* the card */
+
+.card{
+    width: 200px;
+    position: sticky;
+    display: inline-block;
+    margin: 10px;
+}
+
+.card #inner-part{
+    width: 100%;
+    margin: 10px;
+    height: 200px;
+    border: 1px solid #ddd;
+    background-image: url("blog-7.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2px;
+    padding: 2px;
+}
+
+.card #inner-part p{
+    background-color: transparent;
+}
+
+.card a{
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: rgb(60, 0, 255);
+    width: inherit;
+    padding: 20px 0 20px 0;
+    border-radius: 10px;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .card #inner-part img{
+
+} */
+
+.info-card{
+    /* border: 1px solid #ddd; */
+    width: 300px;
+    margin-top: 10px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #ddd;
+    box-shadow: 4px 4px 2px hsl(0deg 1% 1% /0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("blog-3.png");
+    background-size: 300px 200px;
+    opacity: 0.5;
+    color: #fff;
+    background-repeat: no-repeat;
+}
